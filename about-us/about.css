@@ -1,0 +1,222 @@
+body{
+	
+	padding:0;
+	overflow-x: hidden;
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+/*-----Heaader--------------*/
+.header4{
+    display: flex;
+    padding: 15px 20px  15px; 
+    max-width: 1500px;
+    margin: auto;
+    background-color: #555;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    z-index: 10000;
+}
+.logo1{
+    padding: 3px 0 15px 10rem;
+}
+.navbar{
+    gap: 45px;
+    
+}
+
+.button1{
+    width:8rem;
+    font-size:15px;
+    border-radius: 10px;
+    color:white;
+    background-color:hsla(9, 100%, 64%, 1);
+    margin-left:5rem;
+    transition: background 0.5s;
+    font-weight: 500;
+	box-shadow: 0 0 20px 0px rgba(12, 2, 2, 0.1);
+}
+.button1:hover{
+    background-color: #555;
+    transform: scale(1.1);
+}
+/*-------header-end---*/
+
+/*-----about-us------*/
+section{
+    background-image: url(../images/bg.jpg);
+    background-size: contain !important;
+    width: 100%;
+    height: auto;
+}
+
+.bg-all{
+    padding: 10rem 0 0 0;
+    display: flex;
+    gap: 40px;
+}
+.bg-about{
+ background-image: url(../images/mission_vission.png);
+ height: 400px;
+ background-size: contain !important;
+ background-repeat: no-repeat;
+ padding: 11rem 50px 0  50px;
+ text-align: justify;
+}
+.bg-about span{
+    color: black;
+    font-size: 15px;
+    font-weight: 500px;
+    
+}
+.bg-about1{
+ background-image: url(../images/our_objective.png);
+ background-size:  contain !important;
+ height: 400px;
+ background-repeat: no-repeat;
+ padding: 9.7rem 0 0 7.3rem;
+ color: #000;
+}
+.bg-about1 ul{
+    list-style-type: none;
+    line-height: 31px;
+    font-size: 15px;
+}
+.curriculam{
+    background-image: url(../images/curriculum.png);
+    background-size: contain !important;
+    background-repeat: no-repeat;   
+    height: 500px;
+    display: flex;
+    gap: 20px;
+}
+.curriculam .curriculam-1{
+    padding: 7.5rem 0 0 50px;
+    text-align:justify;
+}
+.curriculam .curriculam-1 p{
+    color: #000;
+    word-spacing: -1px;
+    font-weight: 500px;
+}
+.curriculam-2{
+    padding-top: 50px;
+}
+.curriculam-2 p{
+    width: 90%;
+    text-align: justify;
+    color: #000;
+    font-weight: 500px;
+}
+.activity-junction{
+    margin-top: -5rem;
+    padding: 0 50px 0 50px;
+}
+.bootom-img{
+    padding: 0 30px 0 50px;padding-bottom: 20px;
+}
+.bootom-img img{
+    padding-left: 11rem;
+    margin-top: -30px;
+}
+/*------about-us--------*/
+
+/*----fOOTER----------*/
+footer{
+    background-color:rgba(31, 27, 27, 0.8);
+    padding: 60px 0 10px 0;
+  }
+  footer .footer1{
+    display: flex;
+  }
+  footer .help{
+    width: 350px;
+  } 
+  footer .help label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+  }
+  footer .help p{
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0 0 0;
+    color :darkgray;
+    font-size: 12px;
+  }
+  footer .help span{
+    letter-spacing: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  footer .social{
+    width: 350px;
+  }
+  footer .social label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+  }
+  footer .social p{
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0 0 0;
+    color :darkgray;
+    font-size: 12px;
+  }
+  footer .social .icons{
+    font-size: 23px;
+    word-spacing: 15px;
+    padding-left: 5px;
+  }
+  footer .social .icons li{
+    color: #fff;
+  }
+  footer .newsletter{
+    width: 350px;
+  }
+  footer .newsletter label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+  }
+  footer .newsletter p{
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0 0 0;
+    color :darkgray;
+    font-size: 12px;
+  }
+  
+  footer .newsletter .emailbutton{
+    display: flex;
+    text-align: center;
+  }
+  footer .newsletter .emailbutton button{
+    background-color: #ec774b;
+    padding: 0 10px 0 10px;
+    transition: 0.25;
+  }
+  footer .newsletter .emailbutton button:hover{
+  background: #555;
+  }
+  
+  .footerbottom{
+    display: flex;
+    gap: 45rem;
+    color:darkgray;
+    font-size: 12px;
+  }
+  /*end-footer----------*/

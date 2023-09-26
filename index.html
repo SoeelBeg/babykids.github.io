@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BABY-Kids</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital, wght@0,100;0,300;0,400;0,900;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header1  w3-hide-small">
+            <div class="header2">
+                <div>
+                    <li class="fa fa-credit-card" style="font-size: 20px;"></li>
+                    <label for="">payment-Option</label>
+                </div>
+                <div>
+                    <li class="fa fa-check-square-o" style="font-size: 20px;"></li>
+                    <label>Terms & Conditions</label>
+                </div>
+                <div class="head">
+                    <label>US</label>
+                    <label>IT</label>
+                    <label>ES</label>
+                </div>
+            </div>
+            <div class="header3">
+                <div>
+                    <label> My Infobox</label>
+                </div>
+                <div>
+                    <li class="fa fa-envelope-o"></li>
+                </div>
+                <div>
+                    <label>Add New Review</label>
+                </div>
+                <div class="account">
+                    <div class="pt-2">
+                        <li class="fa fa-user-circle-o" style="font-size:30px;"></li>
+                    </div>
+                    <div class="">
+                        <label>My Account</label><br>
+                        <span>Log IN</span>
+                    </div>
+                    <span class="tooltiptext">Login Your Account</span>
+                </div>
+            </div>
+        </div>
+        <div class=" header4">
+
+            <div class="logo1 w3-hide-small  ">
+                <a href="#"><img src="images/logo.png" class="w-50 pt-2"></a>
+            </div>
+            <nav class="navbar">
+                <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                    href="javascript:void(0)" onclick="myFunction()" title="Menu"><i class="fa fa-bars"></i></a>
+                <a href="#" style="text-decoration:none;" class="text-secondary w3-hide-small">HOME</a>
+                <a href="courses/course.html" style="text-decoration:none;"
+                    class="text-secondary w3-hide-small  ">COURSE</a>
+                <a href="about-us/about.html" style="text-decoration:none;" class="text-secondary w3-hide-small  ">ABOUT
+                    US</a>
+                <a href="services/services.html" style="text-decoration:none;"
+                    class="text-secondary w3-hide-small  ">SERVICES</a>
+                <a href="contact/contact.html" style="text-decoration:none;"
+                    class="text-secondary w3-hide-small  ">CONTACT</a>
+                <div class="w3-hide-small  ">
+                    <a href="#"> <button type="submit" class="button1 pt-1 pb-1 ">LESSON</button></a>
+                    <div>
+            </nav>
+            <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+            <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
+                style="margin: 60px 0 0 0; width:200px;">
+                <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+                <a href="courses/course.html" class="w3-bar-item w3-button w3-padding-large"
+                    onclick="myFunction()">COURSES</a>
+                <a href="About-us/about.html" class="w3-bar-item w3-button w3-padding-large"
+                    onclick="myFunction()">ABOUT</a>
+                <a href="services/services.html" class="w3-bar-item w3-button w3-padding-large"
+                    onclick="myFunction()">SERVICES</a>
+                <a href="contact/contact.html" class="w3-bar-item w3-button w3-padding-large"
+                    onclick="myFunction()">CONTACT</a>
+            </div>
+        </div>
+        <div class="pt-2">
+            <div class="slideshow">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/3.jpg" height="500px" width="100%">
+                    <div class="text">Painting</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/1.jpg" height="500px" width="100%">
+                    <div class="text">Classes Of Kids</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/2.jpg" height="500px" width="100%">
+                    <div class="text">Smart-Classes</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </header>
+
+    <!--main-tag-->
+    <main>
+        <section>
+            <div class="container pb-4 pt-4">
+                <div class="section1 row">
+                    <!---part-1-->
+                    <div class="time-1 col-lg-6">
+                        <div class="time12 bg-info text-light">
+                            <h5>DONWLOAD AREA</h5>
+                            <p class="para">
+                                The play scripts listed here are designed to be acted by young people, whether as school
+                                plays, in youth theatre (or youth theater, if you use American English), in drama
+                                workshops or as a part of other youth activities.
+                            </p>
+                            <div class="but-2">
+                                <a href="#"> <button type="submit" class="button2 ">READ NOW</button></a>
+                            </div>
+                        </div>
+
+                        <!--part-1.1-->
+                        <div class="time12 bg-warning">
+                            <h5>OPENING HOURS</h5>
+                            <div class="set-1">
+                                <div>Mon - fri</div>
+                                <div>8 - 17:00</div>
+                            </div>
+                            <div class="hr12">
+                                <hr>
+                            </div>
+                            <div class="set-1">
+                                <div>Saturday</div>
+                                <div>8 - 17:30</div>
+                            </div>
+                            <div class="hr12">
+                                <hr>
+                            </div>
+                            <div class="set-1">
+                                <div>Sunday</div>
+                                <div>8 - 17:30</div>
+                            </div>
+                            <div class="hr12">
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---find our course-->
+                    <div class="course col-lg-6">
+                        <div class="course1 pt-5">
+                            <h4 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Find Your
+                                Course </h4>
+                        </div>
+                        <div>
+                            <div class="select1">
+                                <div>
+                                    <select name="All Levels">
+                                        <a href="#">
+                                            <option value="1">All Levels</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="1">All Levels</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="1">All Levels</option>
+                                        </a>
+                                    </select>
+                                </div>
+                                <div>
+                                    <select name="All Categories">
+                                        <a href="#">
+                                            <option value="2">All Categories</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="2">All Categories</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="2">All Categories</option>
+                                        </a>
+                                    </select>
+                                </div>
+                                <div>
+                                    <select name="All Location">
+                                        <a href="#">
+                                            <option value="">All Location</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="">All Location</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="">All Location</option>
+                                        </a>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="select2 pt-5">
+                                <div>
+                                    <select name="All Topologies">
+                                        <a href="#">
+                                            <option value="1">All Topologies</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="1">All Topologies</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="1">All Topologies</option>
+                                        </a>
+                                    </select>
+                                </div>
+                                <div>
+                                    <select name="All Durations">
+                                        <a href="#">
+                                            <option value="2">All Durations</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="2">All Durations</option>
+                                        </a>
+                                        <a href="#">
+                                            <option value="2">All Durations</option>
+                                        </a>
+                                    </select>
+                                </div>
+                                <div class="but3">
+                                    <a href="#"><button class="px-5 text-light btn1 py-1"
+                                            type="Search">SEARCH</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------videos of baby kids------>
+        <section class="bg-dark pb-5">
+            <div class="pt-5 container videoheading">
+                <h2 class="text-light">Baby Kids School Videos</h2>
+            </div>
+            <div class="container ytvideo pt-5 text-light">
+                <div class="border border1">
+                    <iframe width="530" height="300" src="https://www.youtube.com/embed/NIk1-ck4c6Q?si=CJPrpflyMwGOxEZo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
+                        allowfullscreen></iframe><br><span>How to teach Kids</span>
+                </div>
+                <div class="border border1">
+                    <iframe width="530" height="300" src="https://www.youtube.com/embed/VAXngbtCPs8?si=b2rqukKa4IfuZl5S"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe><br><span>Classroom Fun Game</span>
+                </div>
+            </div>
+            <div class="container ytvideo pt-5 text-light">
+                <div class="border border1">
+                    <iframe width="530" height="300" src="https://www.youtube.com/embed/AgGY_CvGxAM?si=wxHHDYH63tFE_0ts"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe><br><span>Physical Education game</span>
+                </div>
+                <div class="border border1">
+                    <iframe width="530" height="300" src="https://www.youtube.com/embed/6XFXYQbrfj4?si=K6wuuo8HW9beHhzz"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe><br><span>Clap Clap Song</span>
+                </div>
+            </div>
+        </section>
+
+        <!-----our courses--->
+        <section class="pt-5 container">
+            <h4 style="text-align: center; font-size:50px; color:#555;">Our Courses</h4>
+            <div class="our">THE BEST IN OUR SCHOOl</div>
+            <div class="ourflex">
+                <div class=" ourclass border">
+                    <div class="img-box1">
+                        <img src="images/orienteering.png" alt="orienteering" width="350px">
+                    </div>
+                    <div class="pt-2" style="text-align: center;">
+                        <label for="text">Orienteering</label>
+                    </div>
+                    <div class="ourp pt-3">
+                        <p>
+                            Orienteering is an exciting outdoor adventure sport similar to a cross-country race.The
+                            difference is that it involves walking or running while navigating around a course.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="ourimg border">
+                            <div>
+                                <img src="images/abbey.png" alt="abbey" width="30px" style="border-radius: 50%;">
+                            </div>
+                            <div>
+                                <label class="abbey">Abbey</label>
+                            </div>
+                            <div>
+                                <a href="#"><button type="text" class="but4 ">Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" ourclass border">
+                    <div class="img-box1">
+                        <img src="images/drawingactivity.png" alt="drawing activity" width="350px">
+                    </div>
+                    <div class="pt-2" style="text-align: center;">
+                        <label for="text">Drawing Activity</label>
+                    </div>
+                    <div class="ourp pt-3">
+                        <p>
+                            To draw a house, start by drawing two parallel lines for the house’s base. Then, add a
+                            triangle on top of the lines for the roof. Next, draw a rectangle next to the square for the
+                            door.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="ourimg border">
+                            <div>
+                                <img src="images/mandy.png" alt="abbey" width="30px" style="border-radius: 50%;">
+                            </div>
+                            <div>
+                                <label class="abbey">Abbey</label>
+                            </div>
+                            <div>
+                                <a href="#"><button type="text" class="but4 ">Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" ourclass border">
+                    <div class="img-box1">
+                        <img src="images/outdooractivity.png" alt="outdooractivity" width="350px">
+                    </div>
+                    <div class="pt-2" style="text-align: center;">
+                        <label for="text">Outdoor Activity</label>
+                    </div>
+                    <div class="ourp pt-3">
+                        <p>
+                            Frisbee is a very well-known and popular game for both kids and adults. A light-weighted and
+                            perfectly balanced disc of plastic is thrown towards the opponent.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="ourimg border">
+                            <div>
+                                <img src="images/abbey.png" alt="abbey" width="30px" style="border-radius: 50%;">
+                            </div>
+                            <div>
+                                <label class="abbey">Abbey</label>
+                            </div>
+                            <div>
+                                <a href="#"><button type="text" class="but4 ">Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end-ourclass---->
+
+        <!-----register---->
+        <section class="bg_img mt-5">
+            <div class="rgmb-img">
+                <diV class="container imgflex">
+                    <div class="w-50 ">
+                        <P>NEXT DANCE COURSE</P>
+                        <label>Available Now</label>
+                        <div class="dayimg">
+                            <div>
+                                <label class="days">359</label><br>
+                                <span class="time  bg-info">DAYS</span>
+                            </div>
+                            <div>
+                                <label class="days">18</label><br>
+                                <span class="time  bg-warning">HOURS</span>
+                            </div>
+                            <div>
+                                <label class="days">23</label><br>
+                                <span class="time  bg-danger">MIN</span>
+                            </div>
+                            <div>
+                                <label class="days">0</label><br>
+                                <span class="time  bg-secondary">SEC</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="regis">
+                        <div class="register">
+                            <label>LAST 7 SEATS</label>
+                            <p>
+                                Register Now
+                            </p>
+                        </div>
+                        <form action="connect.php" method="POST">
+                            <div class="box">
+                                <div>
+                                    <input type="text" id="Name" name="Name" placeholder="Name" required
+                                        class="border box2">
+                                    <input type="text" id="Surname" name="Surname" placeholder="Surname" required
+                                        class="border box2 box3">
+                                </div><br><br>
+                                <div>
+                                    <input type="Email" id="Email" name="Email" placeholder="Email" required
+                                        class="border box2">
+                                    <input type="text" name="Subject" placeholder="Subject" class="border box2 box3">
+                                </div><br><br>
+                                <div>
+                                    <textarea type="text" id="Message" name="Message" placeholder="message" required
+                                        class="border"></textarea>
+                                </div>
+                                <div class="g-recaptcha recapcher12"
+                                    data-sitekey="6LewpxIjAAAAAA5gmgEfqjJbiMjHtZ0f_dmJcNIV"></div>
+                                <div class="pt-4">
+                                    <button type="submit" id="Send-Now" name="Send-Now" class="but5">SEND NOW</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </diV>
+            </div>
+        </section>
+
+        <!-----end-register---->
+
+        <!-----All Degree--->
+        <div class="book pt-3">
+            <div class="container book1">
+                <div class="row">
+                    <div class="book2 col-lg-4">
+                        <a href="https://www.nationwidechildrens.org/"><img src="images/book.png" alt="book"
+                                width="50px" height="60px" class="bookimg"></a>
+                        <div class="pt-4">
+                            <label>
+                                FIRST DEGREE
+                            </label>
+                            <p class="pt-3">
+                                Treatment will depend on your child’s symptoms, age, and general health. It will also
+                                depend
+                                on how much of the child's body is burned and how severe the condition is.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="book2 col-lg-4">
+                        <a href="https://www.urmc.rochester.edu/"><img src="images/apple.png" alt="book" width="50px"
+                                height="60px" class="bookimg"></a>
+                        <div class="pt-4">
+                            <label>
+                                SECOND DEGREE
+                            </label>
+                            <p class="pt-3">
+                                A second-degree burn usually heals in 2 to 3 weeks, as long as the wound is kept clean
+                                and
+                                protected. Deep second-degree burns may take longer to heal.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="book2 col-lg-4">
+                        <a href="https://www.avera.org/?_ga=2.106228235.922134279.1692260519-1911347515.1692260519"><img
+                                src="images/beg.png" alt="book" width="50px" height="60px" class="bookimg"></a>
+                        <div class="pt-4">
+                            <label>
+                                THIRD DEGREE
+                            </label>
+                            <p class="pt-3">
+                                A large third-degree burn heals slowly. After the burn heals, surgery may be needed.
+                                This is
+                                done to improve the ability to move, and to remove and repair scarred skin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----End-degree-->
+
+        <!-----Our-Blog------------->
+        <div class="container ourblog pt-5">
+            <h4>Our Blog</h4>
+            <p>FOLLOW OUR NEWS </p>
+            <div class="ourblogs">
+                <div class="pt-5">
+                    <div class="milkmeal">
+                        <img src="images/special-meal.png" alt="Special meal" width="350px">
+
+                        <label>BIO SPECIAL MEAL</label>
+
+                        <p>Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas erat dignissim. Sed quis
+                            rutrum tellus, sit amet viverra felis.</p>
+                        <a href="#"><button>READ MORE</button></a>
+                    </div>
+                    <div class="cooking1">
+                        <img src="images/cooking-activity.png" alt=" cooking activity" width="350px">
+                        <div class="cooking"><a href="#" class="text-light">COOKING ACTIVITIES</a></div>
+                    </div>
+                </div>
+                <div class="pt-5">
+                    <div class="kids-2">
+                        <p class="text-light">BabyKids, we work towards exploring the innate potential of each child
+                            believing each child to be unique.</p>
+                        <img src="images/icon-quote.png" width="80px"><span class="text-light logoname">Jhon Doe</span>
+                    </div>
+                    <div class="Music">
+                        <img src="images/musicactivities.png" alt="Special meal" width="350px">
+
+                        <label>MUSIC ACTIVITIES</label>
+
+                        <p>Making sounds and music with babies is a lot of fun, and it’s also great for baby learning
+                            and development.</p>
+                        <a href="#"><button>READ MORE</button></a>
+                    </div>
+                </div>
+                <div class="pt-5">
+                    <div class="schoolparty">
+                        <img src="images/schoolparty.png" alt="Special meal" width="350px">
+
+                        <label>SCHOOL PARTY</label>
+
+                        <p>Although parents sometimes stress over the idea of planning a birthday party, the preschool
+                            age is actually an ideal time to throw one.</p>
+                        <a href="#"><button>READ MORE</button></a>
+                    </div>
+                    <div class="checknewevent">
+                        <img src="images/icon-event.png" alt=" cooking activity" width="25px">
+                        <a href="#" class="text-light"> Check New Events</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----End blog------------->
+
+        <!--footer------------>
+
+        <footer>
+            <div class="container footer1">
+                <div class="row">
+                    <div class="help text-light col-lg-4">
+                        <label>PHONE SUPPORT</label>
+                        <p>24 HOURS A DAY</p>
+                        <span>+91 8690588536</span>
+                    </div>
+                    <div class="social text-light col-lg-4">
+                        <label>CONNECT WITH US</label>
+                        <p>SOCIAL MEDIA CHANNELS</p>
+                        <div class="icons">
+                            <a href="">
+                                <li class="fa fa-instagram"></li>
+                            </a>
+                            <a href="">
+                                <li class="fa fa-facebook"></li>
+                            </a>
+                            <a href="">
+                                <li class="fa fa-twitter"></li>
+                            </a>
+                            <a href="">
+                                <li class="fa fa-pinterest"></li>
+                            </a>
+                            <a href="">
+                                <li class="fa fa-youtube-play"></li>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="newsletter text-light col-lg-4">
+                        <label>NEWSLETTER</label>
+                        <p>SIGN UP FOR SPECIAL OFFERS</p>
+                        <div class="emailbutton ">
+                            <input type="text" name="email" class="form-control" required placeholder="Email">
+                            <button type="button" class="text-light">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-light mx-auto mt-4 container">
+            <div class="footerbottom container">
+                <div><label>© Copyright 2018 nicdark.com</label></div>
+                <div><label>Best Education WordPress Theme</label></div>
+            </div>
+        </footer>
+        <!------end-footer---->
+    </main>
+
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+
+
+        //used to slides images
+        let slideIndex = 1;
+        let timeoutId = null;
+        const slides = document.getElementsByClassName("mySlides");
+        const dots = document.getElementsByClassName("dot");
+
+        showSlides();
+        function currentSlide(index) {
+            slideIndex = index;
+            showSlides();
+        }
+        function plusSlides(step) {
+
+            if (step < 0) {
+                slideIndex -= 2;
+
+                if (slideIndex < 0) {
+                    slideIndex = slides.length - 1;
+                }
+            }
+
+            showSlides();
+        }
+        function showSlides() {
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                dots[i].classList.remove('active');
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].classList.add('active');
+            if (timeoutId) {
+                clearTimeout(timeoutId);
+            }
+            timeoutId = setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <!-- google-recaptcha-link -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+
+</html>

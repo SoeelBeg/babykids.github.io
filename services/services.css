@@ -1,0 +1,256 @@
+body{
+	margin: 0;
+	padding:0;
+	overflow-x: hidden;
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+/*-----Heaader--------------*/
+.header4{
+    display: flex;
+    padding: 15px 20px  15px; 
+    max-width: 1500px;
+    margin: auto;
+    background-color: #555;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    z-index: 10000;
+}
+.logo1{
+    padding: 3px 0 15px 10rem;
+}
+.navbar{
+    gap: 45px;
+    
+}
+
+.button1{
+    width:8rem;
+    font-size:15px;
+    border-radius: 10px;
+    color:white;
+    background-color:hsla(9, 100%, 64%, 1);
+    margin-left:5rem;
+    transition: background 0.5s;
+    font-weight: 500;
+	box-shadow: 0 0 20px 0px rgba(12, 2, 2, 0.1);
+}
+.button1:hover{
+    background-color: #555;
+    transform: scale(1.1);
+}
+/*-------header-end---*/
+
+/*-------services---*/
+
+.bg-services{
+    background-image: url(../images/enroll-bg.jpg);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+}
+.rgba-img{
+    background:rgba(0,0,0,0.6);
+    height: auto;
+}
+.bg-services h2{
+    padding-top: 7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-services p{
+    text-align: justify;
+    font-size: 17px;
+    color:gray;
+}
+.teaching1{
+    display: flex;
+    gap: 40px;
+}
+.bg-services span{
+    font-size: 25px;
+    padding:0 0 0 10rem;
+}
+.teaching2{
+    display: flex;
+    gap: 30px;
+}
+.teaching2 span{
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    margin:0 0 10px 0;
+    background-color:hsla(9, 100%, 64%, 1);
+    
+}
+.teaching2 h4{
+    font-size: 20px;
+    padding: 10px 0 0 0;
+}
+
+.preschool{
+    text-align: center;
+}
+
+
+.preschool span{
+    font-size: 25px;
+    font-weight: 900px;
+}
+
+
+.preschool p{
+    padding: 18px 0 0 0;
+    text-align: justify;
+    font-size: 15px;
+    color: #555;
+}
+
+.allcourses{
+    display: flex;
+    gap: 30px;
+}
+.playschool{
+    width: 270px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:dodgerblue;
+    box-shadow: 10px -16px teal
+}
+.playschool img{
+    -webkit-transform: rotate(15deg) 
+    scale(1.4);
+	transform: rotate(30deg) scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.playschool:hover img{
+    -webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+.playschool h4{
+    font-size: 27px;
+    font-weight: bold;
+    padding: 15px 0 0 0 ;
+}
+.playschool span{
+    font-size: 18px;
+}
+
+.playschool button{
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    color: antiquewhite;
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    transition: background 0.5s;
+}
+.playschool button:hover{
+    transform: scale(1.1);
+}
+
+
+/*----fOOTER----------*/
+footer{
+    background-color:rgba(31, 27, 27, 0.8);
+    padding: 60px 0 10px 0;
+    margin-top: 40px;
+  }
+  footer .footer1{
+    display: flex;
+  }
+  footer .help{
+    width: 350px;
+  } 
+  footer .help label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+  }
+  footer .help p{
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0 0 0;
+    color :darkgray;
+    font-size: 12px;
+  }
+  footer .help span{
+    letter-spacing: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  footer .social{
+    width: 350px;
+  }
+  footer .social label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+  }
+  footer .social p{
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0 0 0;
+    color :darkgray;
+    font-size: 12px;
+  }
+  footer .social .icons{
+    font-size: 23px;
+    word-spacing: 15px;
+    padding-left: 5px;
+  }
+  footer .social .icons li{
+    color: #fff;
+  }
+  footer .newsletter{
+    width: 350px;
+  }
+  footer .newsletter label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+  }
+  footer .newsletter p{
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0 0 0;
+    color :darkgray;
+    font-size: 12px;
+  }
+  
+  footer .newsletter .emailbutton{
+    display: flex;
+    text-align: center;
+  }
+  footer .newsletter .emailbutton button{
+    background-color: #ec774b;
+    padding: 0 10px 0 10px;
+    margin-left: -5px;
+    transition: 0.25;
+  }
+  footer .newsletter .emailbutton button:hover{
+  background: #555;
+  }
+  
+  .footerbottom{
+    display: flex;
+    gap: 45rem;
+    color:darkgray;
+    font-size: 12px;
+  }
+  /*end-footer----------*/

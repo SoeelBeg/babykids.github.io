@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital, wght@0,100;0,300;0,400;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-----Header-->
+    <div class=" header4">
+        <div class="logo1 w3-hide-small">
+            <a href="#"><img src="../images/logo.png" class="w-50 pt-2"></a>
+        </div>
+        <nav class="navbar">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Menu"><i class="fa fa-bars"></i></a>
+            <a href="../index.html" style="text-decoration:none;" class="text-light  w3-hide-small">HOME</a>
+            <a href="#" style="text-decoration:none;" class="text-light  w3-hide-small">COURSE</a>
+            <a href="../about-us/about.html" style="text-decoration:none;" class="text-light  w3-hide-small">ABOUT US</a>
+            <a href="../services/services.html" style="text-decoration:none;" class="text-light  w3-hide-small">SERVICES</a>
+            <a href="../contact/contact.html" style="text-decoration:none;" class="text-light  w3-hide-small">CONTACT</a>
+            <div class="w3-hide-small">
+                <a href="#"> <button type="submit" class="button1 pt-1 pb-1 ">LESSON</button></a>
+            </div>
+        </nav>
+        <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin: 60px 0 0 0; width:200px;">
+            <a href="../index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+            <a href="../courses/course.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COURSES</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+            <a href="../services/services.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
+            <a href="../contact/contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+        </div>
+    </div>
+     <!-----end header-->
+
+     <!------contact----------->
+     <section class="contact mt-5">
+        <div class="content">
+            <h2>Contact-us</h2>
+            <p class="fs-5">
+                Best Education for  Baby Kids & Fastest growing Pre-school In Vastral .
+            </p>
+            <hr class=" pt-1">
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box"><br>
+                    <div class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h1>Address</h1>
+                        <p>
+                            Baby-Kids School,Bhilwara<br>Raj.(311001)
+                        </p>
+                    </div>
+                </div><br>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h1>Phone</h1>
+                        <p>
+                           869-0588-536
+                        </p>
+                    </div>
+                </div><br>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h1>E-mail</h1>
+                        <p>
+                            Babykids@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div><br>
+            <div class="contactform">
+                <form action="contact.php" method="POST">
+                    <h2>Send Message</h2><br>
+                    <div class="inputbox">
+                        <input type="text" name="full_name" id="full_name" required="required">
+                        <span>Full Name</span>
+                    </div><br>
+                    <div class="inputbox">
+                        <input type="text" name="email" id="email" required="required">
+                        <span>E-mail</span>
+                    </div><br>
+                    <div class="inputbox">
+                        <textarea type="text" name="message"id="message" required="required"></textarea>
+                        <span>Type your message...</span>
+                    </div><br>
+                    <div class="g-recaptcha recapcher12" data-sitekey="6LewpxIjAAAAAA5gmgEfqjJbiMjHtZ0f_dmJcNIV"></div>
+                    <div class="inputbox">
+                        <input type="submit" name="send-now" id="send-now" value="send-now">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-------end-contact------>
+
+     <!--footer------------>
+
+     <footer>
+        <div class="container footer1">
+            <div class="help text-light">
+                <label>PHONE SUPPORT</label>
+                <p>24 HOURS A DAY</p>
+                <span>+91 8690588536</span>
+            </div>
+            <div class="social text-light ">
+                <label>CONNECT WITH US</label>
+                <p>SOCIAL MEDIA CHANNELS</p>
+                <div class="icons">
+                    <a href=""><li class="fa fa-instagram"></li></a>
+                    <a href=""><li class="fa fa-facebook"></li></a>
+                    <a href=""><li class="fa fa-twitter"></li></a>
+                    <a href=""><li class="fa fa-pinterest"></li></a>
+                    <a href=""><li class="fa fa-youtube-play"></li></a>
+                </div>
+            </div>
+            <div class="newsletter text-light">
+                <label>NEWSLETTER</label>
+                <p>SIGN UP FOR SPECIAL OFFERS</p>
+                <div class="emailbutton ">
+                    <input  type="text" name="email" class="form-control" required placeholder="Email">
+                    <button type="button" class="text-light">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <hr class="text-light mx-auto mt-4 container">
+        <div class="footerbottom container">
+            <div><label>© Copyright 2018 nicdark.com</label></div>
+            <div><label>Best Education WordPress Theme</label></div>
+        </div>
+    </footer>
+    <!------end-footer---->
+
+    <!-- google-recaptcha-link -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script>
+         // Used to toggle the menu on small screens when clicking on the menu button
+         function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+</body>
+</html>
